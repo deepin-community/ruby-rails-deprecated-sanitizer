@@ -1,0 +1,31 @@
+ruby-rails-deprecated-sanitizer (1.0.3-3.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 15:29:32 +0100
+
+ruby-rails-deprecated-sanitizer (1.0.3-3) unstable; urgency=medium
+
+  * Add myself to Uploaders list
+  * Bump debhelper compatibility level to 11
+  * Declare compliance with Debian Policy 4.2.1
+  * Update VCS urls to point to salsa
+  * debian/copyright: use secure url in Format field
+  * Update Debian packaging copyright
+
+ -- Lucas Kanashiro <lucas.kanashiro@collabora.co.uk>  Tue, 28 Aug 2018 09:19:30 -0300
+
+ruby-rails-deprecated-sanitizer (1.0.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add missing dependency for running package tests (Closes: #818719)
+  * debian/control: update package description, fix lintian warning
+
+ -- Lucas Albuquerque Medeiros de Moura <lucas.moura128@gmail.com>  Thu, 31 Mar 2016 13:21:25 -0300
+
+ruby-rails-deprecated-sanitizer (1.0.3-1) unstable; urgency=medium
+
+  * Initial release (Closes: #792587)
+
+ -- Antonio Terceiro <terceiro@debian.org>  Thu, 13 Aug 2015 15:03:54 -0300

@@ -1,0 +1,28 @@
+Source: ruby-rails-deprecated-sanitizer
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Kanashiro <lucas.kanashiro@collabora.co.uk>
+Build-Depends: debhelper (>= 11~),
+               gem2deb,
+               ruby-actionview,
+               ruby-activesupport (>= 2:4.2.0),
+               ruby-rails-html-sanitizer
+Standards-Version: 4.2.1
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-rails-deprecated-sanitizer.git
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-rails-deprecated-sanitizer
+Homepage: https://github.com/rails/rails-deprecated_sanitizer
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-rails-deprecated-sanitizer
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ruby-activesupport (>= 2:4.2.0),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: HTML sanitizer API extracted from Action View
+ In Rails 4.2, HTML sanitization has been rewritten using a more secure
+ library.  This package includes the old behavior that shipped with Rails 4.2
+ and before, and is provided as a backwards compatibility layer.
